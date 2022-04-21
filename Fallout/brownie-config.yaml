@@ -1,0 +1,5 @@
+#contract address
+Address: '0xB35C6ed33C810E4F13181036D41c74654373Fdad'
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}
