@@ -1,5 +1,4 @@
 from brownie import network, config,accounts
-from web3 import Web3
 
 
 LOCAL_BLOCKCHAIN_ENVIROMENTS = ["development", "ganache-local"]
