@@ -1,0 +1,6 @@
+#contract address
+Address: '0x'
+dotenv: .env
+wallets:
+  from_key: ${PRIVATE_KEY}
+Web3: ${WEB3_INFURA_PROJECT_ID}
