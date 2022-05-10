@@ -1,4 +1,4 @@
-# GatekeeperTwo
+# NaughtCoin
 This levels requires you to abuse a bad ERC20 implementation and control the NaughtCoin token.
 ## Steps:
 1. call function approve with player address and  `INITIAL_SUPPLY` amount.
