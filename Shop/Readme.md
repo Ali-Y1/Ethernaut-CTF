@@ -30,6 +30,6 @@ contract Buyer{
 ````
 2. Call the exploit function, and you bought it with price 0 :).
 
-The inalienability is in the variable isSold which is updated before, and so we can change the output of the price function according to its value.
+The vulnerability is in the boolean `isSold` which is updated before calling the function `price`, and so we can change the output of the price function according to its value.
 ## How to prevent this.
 To prevent this type of problems the untrusted functions should be declared as `pure`.
